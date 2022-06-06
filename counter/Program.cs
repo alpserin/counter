@@ -49,6 +49,10 @@ namespace counter
                     c1.decrement();
                     c1.currentCount();
                 }
+                else
+                {
+                    Console.WriteLine("Unknown operation.");
+                }
             }
         }
     }
